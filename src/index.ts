@@ -24,14 +24,11 @@ try {
     client.login(token);
     //call the registerslashcmd function here
     registrar.registerslashcmds()
+    //event that occurs once the bot is ready
     client.on('ready',()=>{
       //message to show if  the bot is working
         console.log("Bot is up and running");
     });
-
-    client.on('messageCreate',(message)=>{
-
-    })
 
 }
 
